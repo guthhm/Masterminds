@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1560531520 source:/home/guthhm/Documents/Masterminds_2.0/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	"TargetConditionals.h"
+
+1558734838 /home/guthhm/Documents/Masterminds_2.0/oraculo.h
+
