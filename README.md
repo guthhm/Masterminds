@@ -1,10 +1,14 @@
 # Masterminds
 
-Masterminds is a game which you have to guess a secret color code.
+![Start Screen](start_screen.png)
+
+Masterminds is a game which you have to guess a secret color code in a limited number of attempts.
 
 This project was made for Programming class at Instituto Superior Técnico, University of Lisbon.
 
 All the game was developed in C language, the object of Programming discipline, and runs over Linux Terminal or Windows Command Prompt.
+
+![Running game](running_game.png)
 
 It was made in collaboration with Martim Torres and have 3 development targets:
 <dl>
@@ -15,6 +19,14 @@ It was made in collaboration with Martim Torres and have 3 development targets:
   <dt><strong>3. History and Initializing</strong></dt>
   <dd>To start the program is possible to use an "init.dat" file, which will give parameters to the game that will be described ahead, and at the end of every realized game, it's data must be written at "historico.dat" in a specific format.</dd>
 </dl>
+
+## Rules
+
+Rules are very simple. In all game modes, there will be a secret color code to be guessed. Whoever is trying to hit it need to make it before running out of time or trials.
+
+After each attempt, white or red blocks at the right side of the board will indicate existing colors at the wrong place or right colors in the right place, respectively.
+
+These rules are for all modes.
 
 ## Game Modes
 
